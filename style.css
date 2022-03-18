@@ -1,0 +1,53 @@
+body {
+    background: rgb(254,255,248);
+    border-top: 8px solid rgb(36,32,28);
+    padding: 40px;
+    }
+    
+img {
+    width: 100%;
+    flex-direction: row;
+    max-width: 100%;
+    }
+    
+    [role="main"] {
+    margin: 0 auto;
+    overflow: hidden;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    }
+    
+    .project-list  {
+    overflow: hidden;
+    width: 2000px;
+    flex-direction: row;
+    }
+    
+    .project-list figure {
+    background: #000;
+    color: #fff;
+    float: left;
+    font-size: 40px;
+    height: 200px;
+    line-height: 200px;
+    margin: 0 0 40px;
+    position: relative;
+    width: 400px;
+    }
+    
+    .project-list figure:nth-child(even) {
+    background: #444;
+    }
+
+.center {
+    margin: auto;
+    width: 50%;
+    flex-direction: row;
+    padding: 10px; 
+}
+
+.col {
+    float: left;
+
+}
